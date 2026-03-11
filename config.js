@@ -1,0 +1,2 @@
+const SUPABASE_URL = "https://fikzbjjornqsotiklfqm.supabase.co"
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpa3piampvcm5xc290aWtsZnFtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMxNTQ2MzYsImV4cCI6MjA4ODczMDYzNn0.jIMjmrsUz-FERhqn6eshf7FOV9BVJXrs9fjGXL8CE3w"
