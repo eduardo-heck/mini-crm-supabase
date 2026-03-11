@@ -1,6 +1,8 @@
 # Mini CRM (Supabase)
 
-A simple CRM system to manage clients using HTML, CSS, JavaScript, and Supabase
+A simple CRM system built with HTML, CSS, JavaScript and Supabase.
+
+This project allows users to manage clients in a simple dashboard.
 
 ## Features
 
@@ -8,7 +10,7 @@ A simple CRM system to manage clients using HTML, CSS, JavaScript, and Supabase
 - Edit clients
 - Delete clients
 - Search clients
-- Client status tracking
+- Status tracking (Lead, Contacted, Proposal, Closed)
 - Supabase database integration
 
 ## Technologies
@@ -18,27 +20,23 @@ A simple CRM system to manage clients using HTML, CSS, JavaScript, and Supabase
 - JavaScript
 - Supabase
 
-## Database Structure
-
-Table: `clients`
-
-Fields:
-- id
-- created_at
-- name
-- email
-- phone
-- company
-- status
-- notes
-
 ## Screenshot
 
-![Mini CRM Screenshot](assets/screenshot.png)
+![Mini CRM](assets/screenshot.png)
 
-## Future Improvements
+## How to run
+
+1. Clone the repository
+
+
+git clone https://github.com/eduardo-heck/mini-crm-supabase
+
+
+2. Open `index.html` in your browser.
+
+## Future improvements
 
 - Authentication
-- Pagination
-- Status filters
 - Dashboard metrics
+- Filters by status
+- Pagination
