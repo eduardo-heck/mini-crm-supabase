@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f5f6f8;
+    color: #222;
+    padding: 32px 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 32px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.header p {
+    color: #555
+}
+
+.form-section,
+.list-section {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+.form-section h2,
+.list-section h2 {
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+input,
+select,
+textarea,
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #d6d6d6;
+    font-size: 14px
+}
+
+textarea {
+    margin-top: 12px;
+    resize: vertical;
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+button {
+    background: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.secondary {
+    background: #e9e9e9;
+    color: #222;
+}
+
+#message {
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.list-header input {
+    max-width: 280px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ececec;
+    vertical-align: top;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.action-buttons button {
+    padding: 8px 10px;
+    font-size: 13px;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .list-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .actions {
+        flex-direction: column;
+    }
+}
+
+.status-lead {
+    background: #e3f2fd;
+    color: #1565c0;
+}
+
+.status-contacted {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status-proposal {
+    background: #e0f7fa;
+    color: #006064;
+}
+
+.status-closed {
+    background: #e6f4ea;
+    color: #2e7d32;
+}
